@@ -24,7 +24,6 @@ class OccupantTest {
     void setUp() {
         unit = new BasicUnit();
     }
-
     /**
      * Asserts that a unit has no square to start with.
      */

@@ -19,7 +19,6 @@ public class DirectionTest {
         Direction north = Direction.valueOf("NORTH");
         assertThat(north.getDeltaY()).isEqualTo(-1);
     }
-
     /**
      * Do we get the correct delta when moving south?
      */
