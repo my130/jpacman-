@@ -12,7 +12,6 @@ import org.junit.jupiter.api.Test;
  *
  */
 class OccupantTest {
-
     /**
      * The unit under test.
      */
@@ -44,7 +43,6 @@ class OccupantTest {
         unit.occupy(targetTest);
         assertThat(unit.getSquare()).isEqualTo(targetTest);
     }
-
     /**
      * Test that the unit indeed has the target square as its base after
      * double occupation.

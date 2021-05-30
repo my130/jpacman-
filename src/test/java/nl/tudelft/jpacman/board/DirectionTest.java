@@ -28,7 +28,6 @@ public class DirectionTest {
         Direction north = Direction.valueOf("SOUTH");
         assertThat(north.getDeltaY()).isEqualTo(1);
     }
-
     /**
      * Do we get the correct delta when moving east?
      */
@@ -37,7 +36,6 @@ public class DirectionTest {
         Direction north = Direction.valueOf("EAST");
         assertThat(north.getDeltaX()).isEqualTo(1);
     }
-
     /**
      * Do we get the correct delta when moving west?
      */
