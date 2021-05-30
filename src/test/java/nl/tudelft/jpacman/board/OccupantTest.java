@@ -31,7 +31,6 @@ class OccupantTest {
     void noStartSquare() {
         assertThat(unit.hasSquare()).isFalse();
     }
-
     /**
      * Tests that the unit indeed has the target square as its base after
      * occupation.
